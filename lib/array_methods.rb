@@ -1,10 +1,10 @@
 def using_include(array, element)
     while element < array.length
-      # if element == array[element]
+      if element == array[element]
       #   return true
       # else
       #   element++
-      # end
+      end
       # return false
     end
 end
