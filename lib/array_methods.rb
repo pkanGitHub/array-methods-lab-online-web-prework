@@ -5,7 +5,7 @@ def using_include(array, element)
       else
         # element++
       end
-      # return false
+      return false
     end
 end
 
