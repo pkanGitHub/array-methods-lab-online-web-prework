@@ -4,7 +4,7 @@ def using_include(array, element)
       if element == array[element]
         return true
       else
-        ++element
+        ++index
       end
       return false
     end
