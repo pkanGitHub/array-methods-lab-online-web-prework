@@ -1,7 +1,7 @@
 def using_include(array, element)
     index = 0
     while index < array.length
-      if element == array[element]
+      if element == array[index]
         return true
       else
         ++index
