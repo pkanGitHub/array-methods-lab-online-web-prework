@@ -1,5 +1,6 @@
 def using_include(array, element)
-    while element < array.length
+    index = 0
+    while index < array.length
       if element == array[element]
         return true
       else
