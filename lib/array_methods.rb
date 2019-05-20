@@ -1,6 +1,12 @@
 def using_include(array, element)
-    array.index == "wow"
-    array.index == "Tardis"
+    while element < array.length
+      if element == array[index]
+        return true
+      else
+        element++
+      end
+      return false
+    end
 end
 
 def using_sort(array)
